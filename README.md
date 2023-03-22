@@ -30,10 +30,11 @@
 
 ## ✔ Features
 
-- Play/pause button
-- Stop button
-- Set time option
-- Sound button
+- Play Button - turn on the timer
+- Stop Button - turn off the timer
+- Plus Button - add five minutes
+- Minus Button - remove five minutes
+- Sound buttons - play an ambient sound
 
 ## 🚀 Technologies
 
