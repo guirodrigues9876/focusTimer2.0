@@ -1,9 +1,9 @@
 export default function(){
 
-    const forest = new Audio("./Floresta.wav")
-    const rain = new Audio("./Chuva.wav")
-    const coffee = new Audio("./Cafeteria.wav")
-    const fireplace = new Audio("./lareira.wav")
+    const forest = new Audio("./sounds/Floresta.wav")
+    const rain = new Audio("./sounds/Chuva.wav")
+    const coffee = new Audio("./sounds/Cafeteria.wav")
+    const fireplace = new Audio("./sounds/lareira.wav")
   
     let isPlaying = false
 
