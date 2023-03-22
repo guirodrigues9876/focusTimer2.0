@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+
+    --bt-color: #E1E1E6;
+    --bt: #02799D:
+    --tt-selected-color: #FFFFFF;
+    --text-color: #323238;
+
+    font-size: 62.5%;
+}
+
+body{
+
+    display:grid;
+    place
+}
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 19.2rem;
+
+    margin-top: 19.6rem;
+    
+}
+
+#timer{
+    text-align: center;
+}
+
+.displayTimer span{
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12.6rem;
+
+}
+
+.controls{
+
+    display: flex;
+    gap: 4.0rem;
+
+}
+
+.controls button{
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+}
+
+#sounds{
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.soundCards{
+    display: flex;
+    gap: 3.2rem;
+}
+
+.soundCards button{
+
+    width: 13.8rem;
+    height: 15.2rem;
+
+    background-color: var(--bt-color);
+    border: none;
+    border-radius: 2.4rem;
+
+    cursor: pointer;
+}
+
+.soundCards .card-on{
+
+    background-color: #02799D;
+    
+
+} 
